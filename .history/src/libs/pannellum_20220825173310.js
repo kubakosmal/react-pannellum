@@ -399,7 +399,7 @@ export default (function (window, document, undefined) {
               a.textContent = a.href;
               anError(config.uiText.fileAccessError.replace("%s", a.outerHTML));
             }
-            var img = new Blob([this.response]);
+            var img = this.response;
             if (img) {
               parseGPanoXMP(img);
             }
