@@ -5,8 +5,8 @@
   "author": "hoaiduyit",
   "license": "MIT",
   "repository": "hoaiduyit/react-pannellum",
-  "main": "src/index.js",
-  "module": "src/index.js",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
   "engines": {
     "node": ">=11.14",
     "npm": ">=6"
@@ -53,6 +53,6 @@
     "rollup-plugin-postcss": "4.0.0"
   },
   "files": [
-    "src"
+    "dist"
   ]
 }
